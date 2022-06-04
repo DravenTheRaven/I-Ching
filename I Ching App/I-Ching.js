@@ -49,7 +49,7 @@ function flipSix() {
     switch (hexagram) {
 case "111111": //1
   document.getElementById("value").innerHTML = 1;
-  document.getElementById("hexagram1").style.display = "block"
+  document.getElementById("hexagram1").style.display = "block";
   break;
         
 case "000000": //2
@@ -64,32 +64,32 @@ case "010001": //3
         
 case "100010": //4
   document.getElementById("value").innerHTML = 4;
-  document.getElementById("hexagram4").style.display = "block"
+  document.getElementById("hexagram4").style.display = "block";
   break;
         
 case "010111": //5
   document.getElementById("value").innerHTML = 5;
-  document.getElementById("hexagram5").style.display = "block"
+  document.getElementById("hexagram5").style.display = "block";
   break;
         
 case "111010": //6
   document.getElementById("value").innerHTML = 6;
-  document.getElementById("hexagram6").style.display = "block"
+  document.getElementById("hexagram6").style.display = "block";
   break;
         
 case "000010": //7
   document.getElementById("value").innerHTML = 7;
-  document.getElementById("hexagram7").style.display = "block"
+  document.getElementById("hexagram7").style.display = "block";
   break;
         
 case "010000": //8
   document.getElementById("value").innerHTML = 8;
-  document.getElementById("hexagram8").style.display = "block"
+  document.getElementById("hexagram8").style.display = "block";
   break;  
         
 case "110111": //9
   document.getElementById("value").innerHTML = 9;
-  document.getElementById("hexagram9").style.display = "block"
+  document.getElementById("hexagram9").style.display = "block";
   break;
         
 case "111011": //10
