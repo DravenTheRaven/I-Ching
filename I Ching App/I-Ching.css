@@ -1,16 +1,113 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+.resultSize {
+  font-family: verdana; 
+  font-size: 2.3rem;
+  font-weight: 400;
+  line-height:1.4;
+  }
+
+@media (max-width: 61.25em) {
+  .resultSize {
+  font-family: verdana; 
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height:1.4;
+  }
+}
+
+body {
+  font-family: verdana; 
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height:1.4;
+  margin: 0;
+}
+
+
+
+@media (max-width: 61.25em) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 28.75em) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+
 .iChingText {
-    display: none;
-    
-  }
+  display: none;
+  width: 90%
+}
+
+div {
+  width: 50%;
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+}  
+
+@media (max-width: 61.25em) {
   div {
-    width: 50%;
-     margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  
-  }  
-  
-  .meaning {
-    text-indent: 50px;
+  width: 75%;
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+    }  
+}
+
+@media (max-width: 28.75em) {
+  div {
+  width: 75%;
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+    }  
+}
+
+.container {
+  width: 80%;
+  border: 3px solid black;
+}
+
+@media (max-width: 61.25em) {
+  .container {
+  width: 95%;
+  border: 3px solid black;
   }
+}
+
+.wrapper {
+  width: 90%;
+  border: 3px solid black; 
+  text-align: center;
+  font-size: 2rem;
+}
+
+.meaning {
+  text-indent: 50px;
+}
+
+@media (max-width: 61.25em) {
+  .meaning {
+    font-size: 1.5rem;
+    text-indent: 0px;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .meaning {
+    font-size: 1.3rem;
+    text-indent: 0px;
+  }
+}
+
+li {
+  line-height: 150%;
+}

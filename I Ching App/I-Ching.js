@@ -1,8 +1,3 @@
-/* a little explaination is in order. I didn't simply generate a number 1-64 because the code is meant to mimic the physical process of flipping coins for i ching readings
- there is an ancient binary code for i ching hexagrams. 1 represents yang or a solid line and 0 represents yin or a broken line
-the first number of an identification code stands for the top line, but the value of the first tossed coin is the bottom line
-the values of the coin tosses are recorded in order and then compared with the ancient binary code to print the corresponding hexagram */
-
 const click = document.getElementById('click');
 click.addEventListener("click", flipSix);
 const flipArray = [];
@@ -14,12 +9,12 @@ function flipCoin() {
  if (result === 0) {
    document.getElementById("output").innerHTML = "yin"
    console.log("yin")
-   flipArray.unshift("yin")
+   flipArray.unshift("Yin")
    valArray.unshift(0)
   } else if (result === 1 ) {
   document.getElementById("output").innerHTML = "yang"
     console.log("yang")
-    flipArray.unshift("yang")
+    flipArray.unshift("Yang")
     valArray.unshift(1)
     
   }
@@ -44,6 +39,7 @@ function flipSix() {
   //prints the result and converts to key 
   if (flipArray.length === 6) {
  const hexagram = valArray.join("");
+ const flip = flipArray.join(", ");
   document.getElementById("output").innerHTML = flipArray;  
     console.log(hexagram);
     
