@@ -1,0 +1,14 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.page__section {
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+}

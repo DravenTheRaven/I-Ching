@@ -18,8 +18,9 @@ function flipCoin() {
     valArray.unshift(1);
   }
 }
+
 function resetIChingText() {
-  const displayReset = document.getElementsByClassName("iChingText");
+  const displayReset = document.getElementsByClassName("card");
   for (var i = 0; i < displayReset.length; i++) {
     displayReset[i].style.display = "none";
   }
